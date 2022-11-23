@@ -1,4 +1,5 @@
 # READ ME
+<div align="center">
 
 **YOU CAN USE THIS IN YOUR GAMES WITHOUT GIVING CREDITS!**
 
