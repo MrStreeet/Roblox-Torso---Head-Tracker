@@ -16,5 +16,4 @@ Also, to make it work in ServerSide, don't forge to put the **RemoteEvent** (Ren
 
 ###### Important to know
 >Since a year ago I quit coding, so I forget a lot of things because now I'm focusing in other games instead of Roblox, support wouldn't be provided directly but, I will try my best to answer all the issues here on Github.
-
 >Thanks for understanding <3
