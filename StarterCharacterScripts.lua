@@ -1,19 +1,4 @@
-----------------------------------------------------------------------------------------------
--- 						  __  __      _____ _                      _              			--
--- 						 |  \/  |    / ____| |                    | |             			--
--- 						 | \  / |_ _| (___ | |_ _ __ ___  ___  ___| |_            			--
--- 						 | |\/| | '__\___ \| __| '__/ _ \/ _ \/ _ \ __|           			--
--- 						 | |  | | |  ____) | |_| | |  __/  __/  __/ |_            			--
--- 						 |_|  |_|_| |_____/ \__|_|  \___|\___|\___|\__|           			--
---																				  			--
---								Made By MrStreeet (@StreeetYT)					  			--
---					 Leaking or re-selling this product it's illegal and          			--
---      				you'll get reported on Roblox. --Att MrStreeet						--
---							 Any Doubt? Discord: ?rStreeet#1037								--
-----------------------------------------------------------------------------------------------
-
-
---Cámara // Camera
+--CÃ¡mara // Camera
 local camera = workspace.CurrentCamera
 
 --Variable personaje y jugador // Character and player variable
@@ -29,18 +14,18 @@ local Neck = Head:WaitForChild("Neck")
 local Torso = character:WaitForChild("UpperTorso")
 local Waist = Torso:WaitForChild("Waist")
 
---Posición del cuello y la cadera // Neck and waist position
+--PosiciÃ³n del cuello y la cadera // Neck and waist position
 local NeckOriginC0 = Neck.C0.Y
 local WaistOriginC0 = Waist.C0.Y
 
---Variable del almacenamiento de réplica // Replicated Storage variable
+--Variable del almacenamiento de rÃ©plica // Replicated Storage variable
 local RE = game.ReplicatedStorage
 wait()
 local tweenService = game:GetService("TweenService")
 
 local CFNew, CFAng, asin = CFrame.new, CFrame.Angles, math.asin
 
---Vinculación cámara al personaje // Link camera to character
+--VinculaciÃ³n cÃ¡mara al personaje // Link camera to character
 game:GetService("RunService").RenderStepped:Connect(function()
 	local cameraDirection = HumanoidRootPart.CFrame:toObjectSpace(camera.CFrame).lookVector
 	
@@ -53,7 +38,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
 	end
 end)
 
---Hacer visible el movimiento a los demás usuarios
+--Hacer visible el movimiento a los demÃ¡s usuarios
 	--Cuello
 RE.Look.OnClientEvent:Connect(function(otherPlayer, neckCFrame)
 	local Neck = otherPlayer.character:FindFirstChild("Neck", true)
