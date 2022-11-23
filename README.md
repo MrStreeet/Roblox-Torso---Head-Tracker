@@ -9,4 +9,4 @@ This script it's perfect for RolePlay, Social and also minigames.
 You can try this Script without using it by joining my [personal place](https://www.roblox.com/games/8988746798/MrStreeets-Place)
 
 Also, to make it work in ServerSide, don't forge to put the **RemoteEvent** in the **ReplicatedStore**
-[Screenshot](https://imgur.com/a/So6KpzV)
+![Screenshot](https://imgur.com/a/So6KpzV)
